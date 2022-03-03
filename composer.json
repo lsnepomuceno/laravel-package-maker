@@ -1,12 +1,23 @@
 {
-  "name": "naoray/laravel-package-maker",
+  "name": "lsnepomuceno/laravel-package-maker",
   "description": "Get a package skeleton and all other `make` commands from laravel base for package development.",
   "type": "package",
   "license": "MIT",
   "keywords": [
-    "laravel"
+    "laravel",
+    "package maker"
   ],
+  "homepage": "https://github.com/lsnepomuceno/laravel-package-maker",
+  "support": {
+    "issues": "https://github.com/lsnepomuceno/laravel-package-maker/issues",
+    "source": "https://github.com/lsnepomuceno/laravel-package-maker"
+  },
   "authors": [
+    {
+      "name": "Lucas Nepomuceno",
+      "email": "lsn.nepomuceno@gmail.com",
+      "homepage": "https://github.com/lsnepomuceno"
+    },
     {
       "name": "Krishan Koenig",
       "email": "krishan.koenig@googlemail.com"
@@ -17,15 +28,20 @@
     "illuminate/console": "^7.0|^8.0|^9.0",
     "illuminate/filesystem": "^7.0|^8.0|^9.0"
   },
+  "require-dev": {
+    "orchestra/testbench": "^5.0|^6.0",
+    "mockery/mockery": "^1.4",
+    "nunomaduro/collision": "^5.9.0"
+  },
   "autoload": {
     "psr-4": {
-      "Naoray\\LaravelPackageMaker\\": "./src"
+      "LSNepomuceno\\LaravelPackageMaker\\": "./src"
     }
   },
   "minimum-stability": "dev",
   "autoload-dev": {
     "psr-4": {
-      "Naoray\\LaravelPackageMaker\\Tests\\": "tests"
+      "LSNepomuceno\\LaravelPackageMaker\\Tests\\": "tests"
     }
   },
   "scripts": {
@@ -34,12 +50,8 @@
   "extra": {
     "laravel": {
       "providers": [
-        "Naoray\\LaravelPackageMaker\\LaravelPackageMakerServiceProvider"
+        "LSNepomuceno\\LaravelPackageMaker\\LaravelPackageMakerServiceProvider"
       ]
     }
-  },
-  "require-dev": {
-    "orchestra/testbench": "^5.0|^6.0",
-    "mockery/mockery": "^1.4"
   }
 }

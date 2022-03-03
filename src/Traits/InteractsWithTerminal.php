@@ -1,6 +1,6 @@
 <?php
 
-namespace Naoray\LaravelPackageMaker\Traits;
+namespace LSNepomuceno\LaravelPackageMaker\Traits;
 
 use Symfony\Component\Process\Process;
 

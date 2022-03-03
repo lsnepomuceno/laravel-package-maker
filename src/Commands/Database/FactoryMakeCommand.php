@@ -1,10 +1,10 @@
 <?php
 
-namespace Naoray\LaravelPackageMaker\Commands\Database;
+namespace LSNepomuceno\LaravelPackageMaker\Commands\Database;
 
 use Illuminate\Database\Console\Factories\FactoryMakeCommand as MakeFactory;
-use Naoray\LaravelPackageMaker\Traits\CreatesPackageStubs;
-use Naoray\LaravelPackageMaker\Traits\HasNameInput;
+use LSNepomuceno\LaravelPackageMaker\Traits\CreatesPackageStubs;
+use LSNepomuceno\LaravelPackageMaker\Traits\HasNameInput;
 
 class FactoryMakeCommand extends MakeFactory
 {
