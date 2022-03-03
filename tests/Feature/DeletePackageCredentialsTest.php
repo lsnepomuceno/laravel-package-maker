@@ -1,8 +1,8 @@
 <?php
 
-namespace Naoray\LaravelPackageMaker\Tests\Feature;
+namespace LSNepomuceno\LaravelPackageMaker\Tests\Feature;
 
-use Naoray\LaravelPackageMaker\Tests\TestCase;
+use LSNepomuceno\LaravelPackageMaker\Tests\TestCase;
 
 class DeletePackageCredentialsTest extends TestCase
 {

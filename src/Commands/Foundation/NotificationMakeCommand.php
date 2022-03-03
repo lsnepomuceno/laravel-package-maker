@@ -1,10 +1,10 @@
 <?php
 
-namespace Naoray\LaravelPackageMaker\Commands\Foundation;
+namespace LSNepomuceno\LaravelPackageMaker\Commands\Foundation;
 
 use Illuminate\Foundation\Console\NotificationMakeCommand as MakeNotification;
-use Naoray\LaravelPackageMaker\Traits\CreatesPackageStubs;
-use Naoray\LaravelPackageMaker\Traits\HasNameInput;
+use LSNepomuceno\LaravelPackageMaker\Traits\CreatesPackageStubs;
+use LSNepomuceno\LaravelPackageMaker\Traits\HasNameInput;
 
 class NotificationMakeCommand extends MakeNotification
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Naoray\LaravelPackageMaker\Commands\Package;
+namespace LSNepomuceno\LaravelPackageMaker\Commands\Package;
 
 use Illuminate\Support\Str;
-use Naoray\LaravelPackageMaker\Commands\GeneratorCommand;
+use LSNepomuceno\LaravelPackageMaker\Commands\GeneratorCommand;
 use Symfony\Component\Console\Input\InputOption;
 
 class ComposerMakeCommand extends GeneratorCommand

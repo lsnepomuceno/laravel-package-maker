@@ -1,9 +1,9 @@
 <?php
 
-namespace Naoray\LaravelPackageMaker\Commands\Standard;
+namespace LSNepomuceno\LaravelPackageMaker\Commands\Standard;
 
 use Illuminate\Console\Command;
-use Naoray\LaravelPackageMaker\Traits\HasNameInput;
+use LSNepomuceno\LaravelPackageMaker\Traits\HasNameInput;
 
 class TraitMakeCommand extends Command
 {
